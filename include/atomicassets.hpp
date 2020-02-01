@@ -245,7 +245,7 @@ CONTRACT atomicassets : public contract {
     };
     typedef multi_index<name("presets"), presets_s> presets_t;
 
-    //Scope: ownner
+    //Scope: owner
     TABLE assets_s {
       uint64_t            id;
       uint32_t            preset_id;
