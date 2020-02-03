@@ -92,8 +92,8 @@ CONTRACT atomicassets : public contract {
     );
     
     ACTION createcol(
-      name collection_name,
       name author,
+      name collection_name,
       vector<name> authorized_accounts,
       vector<name> notify_accounts,
       ATTRIBUTE_MAP data
