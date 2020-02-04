@@ -445,7 +445,7 @@ ACTION atomicassets::mintasset(
 *  @required_auth At least one of the accounts within the authorized_accounts list of the collection
                   specified in the related preset
 */
-ACTION atomicassets::setassetdata (
+ACTION atomicassets::setassetdata(
   name authorized_editor,
   name owner,
   uint64_t asset_id,

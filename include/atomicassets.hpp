@@ -142,7 +142,7 @@ CONTRACT atomicassets : public contract {
       ATTRIBUTE_MAP immutable_data,
       ATTRIBUTE_MAP mutable_data
     );
-    ACTION setassetdata (
+    ACTION setassetdata(
       name authorized_editor,
       name owner,
       uint64_t asset_id,
