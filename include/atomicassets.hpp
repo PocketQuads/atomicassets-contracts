@@ -58,7 +58,7 @@ ACTION lognewpreset(
   ATTRIBUTE_MAP mutable_data
 );
 
-ACTION editpredata(
+ACTION setpredata(
   name authorized_editor,
   uint32_t preset_id,
   ATTRIBUTE_MAP new_mutable_data
@@ -129,7 +129,7 @@ CONTRACT atomicassets : public contract {
       ATTRIBUTE_MAP immutable_data,
       ATTRIBUTE_MAP mutable_data
     );
-    ACTION editpredata(
+    ACTION setpredata(
       name authorized_editor,
       uint32_t preset_id,
       ATTRIBUTE_MAP new_mutable_data

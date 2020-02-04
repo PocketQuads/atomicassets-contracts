@@ -349,7 +349,7 @@ ACTION atomicassets::createpre(
 *  Updates the mutable data of a preset
 *  @required_auth At least one of the accounts within the authorized_accounts list of the collection
 */
-ACTION atomicassets::editpredata(
+ACTION atomicassets::setpredata(
   name authorized_editor,
   uint32_t preset_id,
   ATTRIBUTE_MAP new_mutable_data
