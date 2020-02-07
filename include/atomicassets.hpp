@@ -250,7 +250,7 @@ CONTRACT atomicassets : public contract {
       uint64_t            id;
       uint32_t            preset_id;
       name                ram_payer;
-      asset               backed_core_tokens;
+      uint64_t            backed_core_amount;
       vector<uint8_t>     immutable_serialized_data;
       vector<uint8_t>     mutable_serialized_data;
 
